@@ -1,0 +1,222 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    /*padding: 12px;*/
+    color: whitesmoke;
+    background-image: url("sports1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: fixed;
+    -webkit-text-stroke: 1px solid black;
+}
+
+header {
+    display: inline-block;
+    background-color: rgba(17, 143, 226, 0.5);
+    width: 100%;
+    color: whitesmoke;
+    text-shadow: 2px 0px 0px rgba(0, 1, 2, 0.377), 0px 2px 0px rgba(0, 1, 2, 0.377), -2px 0px 0px rgba(0, 1, 2, 0.377), 0px -2px 0px rgba(0, 1, 2, 0.377);
+    box-shadow: 2px 2px 20px rgba(17, 52, 77, 0.377);
+}
+
+.active {
+    background-color: rgba(0, 5, 8, 0.2);
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 20px;
+    float: left;
+}
+
+header img {
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+
+nav {
+    float: right;
+    padding: 28px;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+section {
+    height: 100%;
+    text-shadow: 2px 0px 0px rgba(0, 1, 2, 0.377), 0px 2px 0px rgba(0, 1, 2, 0.377), -2px 0px 0px rgba(0, 1, 2, 0.377), 0px -2px 0px rgba(0, 1, 2, 0.377);
+}
+
+section div {
+    float: left;
+    color: whitesmoke;
+    text-shadow: 2px 0px 0px rgba(0, 1, 2, 0.377), 0px 2px 0px rgba(0, 1, 2, 0.377), -2px 0px 0px rgba(0, 1, 2, 0.377), 0px -2px 0px rgba(0, 1, 2, 0.377);
+    z-index: 1;
+    width: 60%;
+    box-shadow: 2px 2px 20px rgba(17, 52, 77, 0.377);
+    padding: 13% 0% 13% 9%;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    background-color: rgba(17, 143, 226, 0.2);
+}
+
+.about {
+    display: block;
+    position: relative;
+    text-shadow: 2px 0px 0px rgba(0, 1, 2, 0.377), 0px 2px 0px rgba(0, 1, 2, 0.377), -2px 0px 0px rgba(0, 1, 2, 0.377), 0px -2px 0px rgba(0, 1, 2, 0.377);
+    border: transparent;
+    background-color: rgba(6, 44, 59, 0.829);
+    box-shadow: 2px -2px 20px rgba(17, 52, 77, 0.377), -2px 2px 20px rgba(17, 52, 77, 0.377);
+    padding: 3% 5% 3% 5%;
+    text-align: center;
+    width: 50%;
+    margin: 2% 20% 4% 20%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+section div p {
+    font-size: 20px;
+    text-align: justify;
+    width: 100%;
+}
+
+section div h1,
+section div h3 {
+    padding: 10px 0px 10px 2px;
+    width: 80%;
+    padding-left: 0px;
+    font-size: 28px;
+    font-variant: small-caps;
+}
+
+section div h1 {
+    font-size: 45px;
+}
+
+button {
+    display: block;
+    padding: 20px;
+    border-radius: 20px;
+    border: transparent;
+    background-color: rgba(87, 169, 224, 0.582);
+    color: bisque;
+    box-shadow: 2px 2px 20px rgba(17, 52, 77, 0.377);
+    font-size: 20px;
+    margin: 21px;
+    text-shadow: 2px 0px 0px rgba(0, 1, 2, 0.377), 0px 2px 0px rgba(0, 1, 2, 0.377), -2px 0px 0px rgba(0, 1, 2, 0.377), 0px -2px 0px rgba(0, 1, 2, 0.377);
+}
+
+button:hover {
+    transition: 0.1s ease-out;
+    transform: scale(1.01, 1.02);
+}
+
+footer {
+    clear: both;
+    color: white;
+    text-shadow: 2px 0px 0px rgba(0, 1, 2, 0.377), 0px 2px 0px rgba(0, 1, 2, 0.377), -2px 0px 0px rgba(0, 1, 2, 0.377), 0px -2px 0px rgba(0, 1, 2, 0.377);
+    text-align: center;
+    height: 10%;
+    padding: 10px;
+    box-shadow: 2px -2px 20px rgba(17, 52, 77, 0.377);
+    background-color: rgba(17, 143, 226, 0.5);
+}
+
+form {
+    display: inline-block;
+    position: relative;
+    border: transparent;
+    background-color: rgba(60, 102, 119, 0.1);
+    box-shadow: 2px -2px 20px rgba(17, 52, 77, 0.377), -2px 2px 20px rgba(17, 52, 77, 0.377);
+    padding: 5% 10% 5% 10%;
+    text-align: center;
+    margin: 5%;
+    margin-bottom: 45px;
+    margin-left: 420px;
+    /*visibility: hidden;*/
+}
+
+form button {
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    transition: 0.1s ease-out;
+    transform: scale(1.01, 1.02);
+    background-color: transparent;
+}
+
+nav a:hover {
+    background-color: rgba(0, 5, 8, 0.2);
+    border-radius: 10px;
+}
+
+@media print {
+    body {
+        display: none
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        padding: 0%;
+    }
+    header h1 {
+        margin-right: 0px;
+    }
+    nav {
+        text-align: center;
+        width: 100%;
+        float: left;
+        box-shadow: 2px -2px 20px rgba(17, 52, 77, 0.377), -2px 2px 20px rgba(17, 52, 77, 0.377);
+        margin-right: 0px;
+        padding: 6% 0% 6% 6%;
+    }
+    nav a {
+        margin-right: 0px;
+    }
+    section {
+        width: 100%;
+        text-align: justify;
+    }
+    section div {
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        padding: 20% 0% 20% 1%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    button {
+        margin-left: 30%;
+    }
+    button:hover {
+        transition: 0.1s ease-in;
+        transform: scale(1.00, 1.00);
+    }
+    .about {
+        display: block;
+        padding: 3% 5% 3% 5%;
+        text-align: center;
+        width: 80%;
+        margin: 4%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
